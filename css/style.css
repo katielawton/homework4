@@ -48,7 +48,7 @@ nav a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  position: relative; /*check this agin*/
+  position: absolute; /*check this agin*/
   top: -40px;
 }
 
