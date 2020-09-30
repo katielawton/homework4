@@ -57,7 +57,7 @@ nav a:hover{
 .skip a:focus {
   position: absolute;
   top: 0px;
-  margin: auto;
+  margin: auto; /*check*/
 }
 
 /*Your Code Here*/
@@ -160,6 +160,8 @@ background-color: rgba(255, 255, 255, .8);
   padding: 30px;
   /*Your code here:*/
   text-align: center;
+  margin: auto;
+  overflow: auto;
 
 }
 
@@ -169,7 +171,8 @@ background-color: rgba(255, 255, 255, .8);
     padding: 30px 0px;
     /*Your code here:*/
     text-align: right;
-    align-self: center;
+    
+    text-decoration: none;
   }
 
   .container{
